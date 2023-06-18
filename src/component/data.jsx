@@ -1,15 +1,12 @@
 // import React, { useState, useEffect } from 'react';
-
 // function DataTable() {
 //   const [data, setData] = useState([]);
-
 //   useEffect(() => {
 //     fetch('https://jsonplaceholder.typicode.com/users')
 //       .then(response => response.json())
 //       .then(data => setData(data))
 //       .catch(error => console.log(error));
 //   }, []);
-
 //   return (
 //     <table>
 //       <thead>
@@ -33,16 +30,6 @@
 // }
 
 // export default DataTable;
-
-
-
-
-
-
-
-
-
-
 
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -87,12 +74,4 @@ function DataTable() {
     
   );
 }
-
-
-
 export default DataTable;
-
-
-
-
-
